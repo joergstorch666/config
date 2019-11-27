@@ -4,6 +4,7 @@
     "telemetry.enableTelemetry": false,
     "editor.tabSize": 2,
     "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"C:\\Users\\storm\\.vscode\\extensions\\gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "svn.enableProposedApi": "none",
