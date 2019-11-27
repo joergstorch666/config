@@ -1,0 +1,62 @@
+{
+    "rest-client.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"C:\\Users\\storm\\.vscode\\extensions\\gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "svn.enableProposedApi": "none",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.lineNumbers": "relative",
+    "window.zoomLevel": 0,
+    "update.enableWindowsBackgroundUpdates": false,
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualline": "block-outline",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.highlightedyank.enable": true,
+    "vim.hlsearch": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": "#059922",
+    "vim.statusBarColors.insert": "#e30000",
+    "vim.statusBarColors.visual": "#15ee99",
+    "vim.statusBarColors.visualline": "#15ee99",
+    "vim.statusBarColors.visualblock": "#15ee99",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#059922",
+        "statusBar.noFolderBackground": "#059922",
+        "statusBar.debuggingBackground": "#059922"
+    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ]
+}
