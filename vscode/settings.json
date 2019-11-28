@@ -12,7 +12,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.lineNumbers": "relative",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 1,
     "update.enableWindowsBackgroundUpdates": false,
     "editor.formatOnSave": true,
     "javascript.format.enable": false,
@@ -43,9 +43,9 @@
     "vim.statusBarColors.visualline": "#15ee99",
     "vim.statusBarColors.visualblock": "#15ee99",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#e30000",
-        "statusBar.noFolderBackground": "#e30000",
-        "statusBar.debuggingBackground": "#e30000"
+        "statusBar.background": "#059922",
+        "statusBar.noFolderBackground": "#059922",
+        "statusBar.debuggingBackground": "#059922"
     },
     "vim.visualModeKeyBindingsNonRecursive": [
         {
