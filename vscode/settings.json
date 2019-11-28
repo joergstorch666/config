@@ -12,8 +12,24 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.lineNumbers": "relative",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "update.enableWindowsBackgroundUpdates": false,
+    "editor.formatOnSave": true,
+    "javascript.format.enable": false,
+    "typescript.format.enable": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
     "vim.cursorStylePerMode.visual": "block",
     "vim.cursorStylePerMode.visualline": "block-outline",
     "vim.cursorStylePerMode.normal": "block",
@@ -27,9 +43,9 @@
     "vim.statusBarColors.visualline": "#15ee99",
     "vim.statusBarColors.visualblock": "#15ee99",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#059922",
-        "statusBar.noFolderBackground": "#059922",
-        "statusBar.debuggingBackground": "#059922"
+        "statusBar.background": "#e30000",
+        "statusBar.noFolderBackground": "#e30000",
+        "statusBar.debuggingBackground": "#e30000"
     },
     "vim.visualModeKeyBindingsNonRecursive": [
         {
