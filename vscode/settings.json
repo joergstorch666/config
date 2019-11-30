@@ -30,6 +30,7 @@
             "autoFix": true
         }
     ],
+    "vim.useSystemClipboard": true,
     "vim.cursorStylePerMode.visual": "block",
     "vim.cursorStylePerMode.visualline": "block-outline",
     "vim.cursorStylePerMode.normal": "block",
