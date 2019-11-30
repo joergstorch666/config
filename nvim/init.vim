@@ -34,6 +34,12 @@ Plug 'tpope/vim-surround'
 " git gutter
 Plug 'airblade/vim-gitgutter'
 
+" emmet
+Plug 'mattn/emmet-vim'
+
+" easy motion
+Plug 'easymotion/vim-easymotion'
+
 " theme
 Plug 'iCyMind/NeoSolarized'
 
@@ -71,6 +77,7 @@ let mapleader="\<SPACE>"
 let g:deoplete#enable_at_startup = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:highlightedyank_highlight_duration = 1000
+map <Leader> <Plug>(easymotion-prefix)
 
 " deoplete mapping
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
