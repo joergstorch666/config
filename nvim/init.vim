@@ -76,6 +76,14 @@ Plug 'leafoftree/vim-vue-plugin'
 " theme
 Plug 'iCyMind/NeoSolarized'
 
+" syntax
+Plug 'sheerun/vim-polyglot'
+Plug 'matthewbdaly/vim-filetype-settings'
+
+" snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 set backspace=indent,eol,start
