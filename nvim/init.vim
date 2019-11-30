@@ -102,8 +102,7 @@ set breakindent
 set smartindent
 set expandtab
 set shiftwidth=2
-" Yank and paste with the system clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 set termguicolors
 set background=dark
 colorscheme NeoSolarized
