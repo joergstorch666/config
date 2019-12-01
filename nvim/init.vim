@@ -116,11 +116,15 @@ set background=dark
 colorscheme NeoSolarized
 
 let mapleader="\<SPACE>"
+let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='solarized'
 let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#enabled = 1
 let g:highlightedyank_highlight_duration = 1000
-map <Leader> <Plug>(easymotion-prefix)
+map <Leader> <Plug>(e" Move to word
+map  <Leader>w <Plug>(easymotion-bd-w)
+nmap <Leader>w <Plug>(easymotion-overwin-w)asymotion-prefix)
+let g:EasyMotion_keys='asfghjklöqwertuiop'
 
 " Allows you to save files you opened without write permissions via sudo
 cmap w!! w !sudo tee %

@@ -30,6 +30,10 @@
             "autoFix": true
         }
     ],
+    "vim.easymotionMarkerBackgroundColor": "#ff0000",
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "vim.easymotionKeys": "asfghjklöqwertuiop",
     "vim.useSystemClipboard": true,
     "vim.cursorStylePerMode.visual": "block",
     "vim.cursorStylePerMode.visualline": "block-outline",
@@ -49,6 +53,22 @@
         "statusBar.noFolderBackground": "#657b83",
         "statusBar.debuggingBackground": "#657b83"
     },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "leader",
+                "b",
+                "d",
+                "w"
+            ]
+        }
+    ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [
