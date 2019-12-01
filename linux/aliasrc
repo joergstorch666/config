@@ -1,3 +1,4 @@
+:# vim: filetype=sh
 alias y="youtube-dl "
 alias yl="youtube-dl -F "
 alias ya="youtube-dl -x --audio-format mp3 --audio-quality 0 "
@@ -15,3 +16,7 @@ alias lgilt='exa --git -lT'
 alias lgr='exa -G -R'
 alias lt='exa -T'
 alias ltl='exa -T -l'
+alias cfa="$EDITOR ~/git_config/linux/aliasrc"
+alias cfz="$EDITOR ~/git_config/linux/.zshrc"
+alias cfv="$EDITOR ~/git_config/nvim/init.vim"
+alias clb="cd ~/.local/bin"
