@@ -174,7 +174,7 @@ let g:NERDTreeShowHidden = 1
 " Remove bookmarks and help text from NERDTree
 let g:NERDTreeMinimalUI = 1"
 " Hide certain files and directories from NERDTree
-let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]','\.idea$[[dir]]', '\.sass-cache$', '\node_modules$']
+let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]','\.idea$[[dir]]', '\.sass-cache$', '^node_modules$']
 "  <leader>n - Toggle NERDTree on/off
 "  <leader>f - Opens current file location in NERDTree
 nmap <leader>n :NERDTreeToggle<CR>
