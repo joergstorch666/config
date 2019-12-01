@@ -86,7 +86,7 @@ Plug 'honza/vim-snippets'
 
 call plug#end()
 
-set backspace=indent,eol,start
+"set backspace=indent,eol,start
 set number
 set relativenumber
 syntax on
@@ -116,6 +116,8 @@ set background=dark
 colorscheme NeoSolarized
 
 let mapleader="\<SPACE>"
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#enabled = 1
 let g:highlightedyank_highlight_duration = 1000
 map <Leader> <Plug>(easymotion-prefix)
@@ -145,6 +147,9 @@ nnoremap <Leader>7 :7b<CR>
 nnoremap <Leader>8 :8b<CR>
 nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
+
+" auto normal mode after 5 seconds
+autocmd CursorHoldI * stopinsert
 
 " --- Prettier ---
 let g:prettier#autoformat = 0
