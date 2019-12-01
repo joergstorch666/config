@@ -1,0 +1,17 @@
+alias y="youtube-dl "
+alias yl="youtube-dl -F "
+alias ya="youtube-dl -x --audio-format mp3 --audio-quality 0 "
+alias v=vim
+alias p="sxiv *"
+alias q="exit"
+alias r="vifm"
+alias la='exa -l'
+alias lar='exa -lR'
+alias ls='exa'
+alias lsr='exa -R'
+alias lgi='exa --git'
+alias lgil='exa --git -L'
+alias lgilt='exa --git -lT'
+alias lgr='exa -G -R'
+alias lt='exa -T'
+alias ltl='exa -T -l'
