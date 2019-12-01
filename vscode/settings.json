@@ -67,9 +67,29 @@
                 "d",
                 "w"
             ]
+        },
+        {
+            "before": [
+                "leader",
+                "c",
+                "space",
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "c",
+                "space",
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
         {
             "before": [
                 "p",
