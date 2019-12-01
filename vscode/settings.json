@@ -38,15 +38,16 @@
     "vim.highlightedyank.enable": true,
     "vim.hlsearch": true,
     "vim.statusBarColorControl": true,
-    "vim.statusBarColors.normal": "#059922",
-    "vim.statusBarColors.insert": "#e30000",
-    "vim.statusBarColors.visual": "#15ee99",
-    "vim.statusBarColors.visualline": "#15ee99",
-    "vim.statusBarColors.visualblock": "#15ee99",
+    "vim.statusBarColors.normal": "#657b83",
+    "vim.statusBarColors.insert": "#b58900",
+    "vim.statusBarColors.replace": "#dc322f",
+    "vim.statusBarColors.visual": "#d33682",
+    "vim.statusBarColors.visualline": "#d33682",
+    "vim.statusBarColors.visualblock": "#d33682",
     "workbench.colorCustomizations": {
-        "statusBar.background": "#059922",
-        "statusBar.noFolderBackground": "#059922",
-        "statusBar.debuggingBackground": "#059922"
+        "statusBar.background": "#657b83",
+        "statusBar.noFolderBackground": "#657b83",
+        "statusBar.debuggingBackground": "#657b83"
     },
     "vim.visualModeKeyBindingsNonRecursive": [
         {
