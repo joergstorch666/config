@@ -12,7 +12,7 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.lineNumbers": "relative",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "update.enableWindowsBackgroundUpdates": false,
     "editor.formatOnSave": true,
     "javascript.format.enable": false,
