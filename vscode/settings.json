@@ -14,7 +14,7 @@
     "editor.lineNumbers": "relative",
     "window.zoomLevel": 0,
     "update.enableWindowsBackgroundUpdates": false,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "javascript.format.enable": false,
     "typescript.format.enable": false,
     "eslint.autoFixOnSave": true,
@@ -54,6 +54,18 @@
         "statusBar.debuggingBackground": "#657b83"
     },
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["Z", "Z"],
+            "commands": [
+                ":wq"
+            ]
+        },
+        {
+            "before": [":"],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
         {
             "before": [
                 "leader",
